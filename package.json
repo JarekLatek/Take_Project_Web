@@ -1,0 +1,29 @@
+{
+  "name": "js_project",
+  "version": "1.0.0",
+  "description": "First JS website",
+  "main": "index.js",
+  "scripts": {
+    "test": "js_test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JarekLatek/JS_Project.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Jarosław Latek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JarekLatek/JS_Project/issues"
+  },
+  "homepage": "https://github.com/JarekLatek/JS_Project#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-sass": "^2.0.0"
+  }
+}

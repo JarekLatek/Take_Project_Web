@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+* {
+  box-sizing: border-box;
+  /*border: 1px solid #000;*/ }
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden; }
+
+.row:before, .row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/*GRID*/
+[class*="col-"] {
+  float: left;
+  min-height: 1px;
+  padding: 15px; }
+
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
+.col-offset-1 {
+  margin-left: 8.33%; }
+
+.col-offset-2 {
+  margin-left: 16.66%; }
+
+.col-offset-3 {
+  margin-left: 25%; }
+
+.col-offset-4 {
+  margin-left: 33.33%; }
+
+.col-offset-5 {
+  margin-left: 41.66%; }
+
+.col-offset-6 {
+  margin-left: 50%; }
+
+.col-offset-7 {
+  margin-left: 58.33%; }
+
+.col-offset-8 {
+  margin-left: 66.66%; }
+
+.col-offset-9 {
+  margin-left: 75%; }
+
+.col-offset-10 {
+  margin-left: 83.33%; }
+
+.col-offset-11 {
+  margin-left: 91.66%; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+section .container {
+  margin: 50px auto;
+  text-align: left; }
+
+/*======= HEADER =======*/
+header nav img {
+  margin-top: 5vh;
+  position: absolute;
+  padding-left: 15px; }
+
+/*======= MASTHEAD =======*/
+.masthead {
+  background: url(http://project-work.pl/img/masthead.jpg) center/cover;
+  width: 100%;
+  height: 100vh;
+  padding-top: 20vh;
+  color: #fff; }
+  .masthead h1 {
+    font-size: 60px;
+    font-weight: 300; }
+  .masthead p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px; }
+  .masthead img {
+    float: right;
+    display: inline;
+    position: absolute;
+    width: 35vw;
+    bottom: -26vh;
+    right: 15vw; }
+
+/*======= MASTHEAD-TEXT =======*/
+.masthead-text h2 {
+  font-weight: 300;
+  font-size: 35px; }
+
+.masthead-text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px; }
+
+.masthead-text .under-ph {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.masthead-text .left-ph {
+  padding-bottom: 0; }
+
+/*======= BOX-GRID =======*/
+.box-grid {
+  color: #fff; }
+  .box-grid button {
+    border: 0;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    padding-left: 30px;
+    line-height: 24px; }
+  .box-grid h2 {
+    font-weight: 300;
+    font-size: 30px;
+    padding: 0 30px; }
+  .box-grid p {
+    font-weight: 400;
+    font-size: 13px;
+    padding-left: 30px;
+    line-height: 24px; }
+  .box-grid .box-grid-small {
+    float: left;
+    height: 278px;
+    width: 400px;
+    padding: 0; }
+  .box-grid .special-row-1 {
+    width: 1600px;
+    transition: .5s; }
+    .box-grid .special-row-1:hover {
+      transform: translate(-3.3vw, 0vw); }
+    .box-grid .special-row-1 .box-grid-clients {
+      background-image: url(http://project-work.pl/img/box-small.png);
+      float: left;
+      height: 278px;
+      width: 400px;
+      padding: 0; }
+    .box-grid .special-row-1 .dark-blue {
+      background-color: #615f7d; }
+    .box-grid .special-row-1 .blue {
+      background-color: #f5989d; }
+    .box-grid .special-row-1 .purple {
+      background-color: #bd8cbf; }
+  .box-grid .special-row-2 {
+    width: 2000px;
+    transition: .5s; }
+    .box-grid .special-row-2:hover {
+      transform: translate(-23vw, 0vw); }
+    .box-grid .special-row-2 .box-grid-sign {
+      background-image: url(http://project-work.pl/img/box-large.png);
+      float: left;
+      height: 278px;
+      width: 800px;
+      padding: 0; }
+    .box-grid .special-row-2 .box-grid-extras-lg {
+      background-image: url(http://project-work.pl/img/extras-box-large.png);
+      float: left;
+      height: 278px;
+      width: 800px;
+      padding: 0; }
+    .box-grid .special-row-2 .green {
+      background-color: #82ca9c; }
+
+/*======= FOOUR-COL =======*/
+.four-col {
+  color: #67676d; }
+  .four-col h1 {
+    font-weight: 300;
+    font-size: 35px;
+    padding-left: 15px; }
+  .four-col h2 {
+    font-weight: 600;
+    font-size: 13px; }
+  .four-col p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; }
+
+/*======= FULL-IMAGE =======*/
+.full-image {
+  background: url(http://project-work.pl/img/full-image.jpg) center/cover;
+  width: 100%;
+  height: 100vh;
+  padding-top: 40vh;
+  color: #fff; }
+  .full-image h1 {
+    font-weight: 300;
+    font-size: 60px; }
+  .full-image p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px; }
+  .full-image button {
+    border: 0;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    padding-left: 0;
+    line-height: 24px; }
+
+/*======= COLOUR-TEXT =======*/
+.colour-text {
+  color: #fff;
+  background: #82ca9c;
+  padding: 25px 0; }
+  .colour-text h1 {
+    font-weight: 300;
+    font-size: 35px;
+    padding-left: 15px; }
+  .colour-text h2 {
+    font-weight: 600;
+    font-size: 13px; }
+  .colour-text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; }
+
+/*======= BUYING =======*/
+.buying {
+  padding: 75px 0; }
+  .buying h1 {
+    font-weight: 300;
+    font-size: 30px;
+    color: #2e3b4e; }
+  .buying p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #8297a7;
+    line-height: 25px; }
+  .buying .box-style {
+    padding: 60px; }
+    .buying .box-style:hover {
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+      transition: 1s; }
+      .buying .box-style:hover .badge {
+        background-color: #bd8cbf;
+        transition: 1s; }
+    .buying .box-style .badge {
+      font-size: 11px;
+      color: #fff;
+      font-weight: 600;
+      border-radius: 5px;
+      padding: 5px 15px;
+      text-transform: uppercase;
+      background-color: #e1e1e1; }
+    .buying .box-style button {
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 22px;
+      color: #fff;
+      border: 0;
+      border-radius: 3px;
+      width: 150px;
+      height: 45px;
+      background-color: #82ca9c;
+      cursor: pointer;
+      text-transform: uppercase; }
+      .buying .box-style button:active {
+        background-color: #fff;
+        color: #82ca9c;
+        border: solid 2px #82ca9c; }
+      .buying .box-style button:focus {
+        background-color: #fff;
+        color: #82ca9c;
+        border: solid 2px #82ca9c; }
+    .buying .box-style i {
+      color: #c5c5c5;
+      font-size: 25px;
+      padding: 15px 5px; }
+
+/*======= FOOTER =======*/
+
+/*# sourceMappingURL=style.css.map */
